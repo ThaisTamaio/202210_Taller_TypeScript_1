@@ -24,5 +24,7 @@ function renderSeriesInTable(series: Serie[]): void {
 function getPromedioTemporadas(series: Serie[]): number {
   let promedioTemporadas: number = 0;
   series.forEach((serie) => promedioTemporadas = promedioTemporadas + serie.temporadas);
-  return promedioTemporadas/series.length;
+  return promedioTemporadas / series.length;
 }
+
+

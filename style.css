@@ -75,3 +75,15 @@ table td{
 .bold-font{
     font-weight: bold;
 }
+
+.to-left{
+    width:75%;
+    Text-align:left;
+    float:left;
+}
+
+.to-right{
+    Text-align:left;
+    Width:25%;
+    float:right;
+}

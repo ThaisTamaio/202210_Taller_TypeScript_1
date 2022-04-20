@@ -12,31 +12,41 @@
 <body>
     <div class="color">
         <div class="header">
-                <img src="./tv.png" alt="logo" />
+                <img src="images/tv.png" alt="logo" />
                 <h1>Series</h1>     
         </div>
     </div>
 
-    <div class="container margen">        
+    <div class="container">
+        <div class="to-left">
+            <div class="tableSize">
+                <table class="table">
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Channel</th>
+                        <th>Seasons</th>
+                    </tr>
+                    <tbody id="series">
+                    </tbody>
+                </table>
+            </div>
 
-        <div class="tableSize">
-            <table class="table">
-                <tr>
-                    <th>#</th>
-                    <th>Name</th>
-                    <th>Channel</th>
-                    <th>Seasons</th>
-                </tr>
-                <tbody id="series">
-                </tbody>
-            </table>
+            <div class="center">
+                <h3 class="heading">Seasons Average:</h3>
+                <h4 id="avg-temporadas" class="heading"></h4>
+            </div>
         </div>
-
-        <div class="center">
-            <h3 class="heading">Seasons Average:</h3>
-            <h4 id="avg-temporadas" class="heading"></h4>
+        <div class="to-right">
+            <div class="card">
+                <img src="images/BreakingBad.jpeg" alt="Avatar">
+                <div class="container">
+                  <h4><b>Breaking Bad</b></h4> 
+                  <p>Set and filmed in Albuquerque, New Mexico, the series tells the story of Walter White, a struggling and depressed high school chemistry teacher who is diagnosed with lung cancer.</p>
+                  <p>https://www.amc.com/shows/breaking-bad</p>  
+                </div>
+              </div>
         </div>
-        
     </div>
 
     <script type="module" src="./scripts/serie.js"></script>
