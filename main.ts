@@ -14,7 +14,7 @@ function renderSeriesInTable(series: Serie[]): void {
   series.forEach((serie) => {
     let trElement = document.createElement("tr");
     trElement.innerHTML = `<td class="bold-font">${serie.posicion}</td>
-                           <td class="color-blue">${serie.titulo}</td>
+                           <td class="color-blue"><input type = "button" value = "${serie.titulo}" class="btn btn-link series-button"></button></td>
                            <td>${serie.canal}</td>
                            <td>${serie.temporadas}</td>`;
     seriesTbody.appendChild(trElement);
