@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Series - Taller Typescript</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container margen">
+
+        <div class="color">
+            <div class="header">
+                <img src="./tv.png" alt="logo" />
+                <h1>TV Series</h1>
+            </div>
+        </div>
+        
+
+        <div class="tableSize">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Channel</th>
+                        <th>Seasons</th>
+                    </tr>
+                </thead>
+                <tbody id="series">
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="center">
+            <h3 class="heading">Seasons Average:</h3>
+            <h4 id="avg-temporadas" class="heading"></h4>
+        </div>
+        
+    </div>
+
+    <script type="module" src="./scripts/serie.js"></script>
+    <script type="module" src="./scripts/data.js"></script>
+    <script type="module" src="./scripts/main.js"></script>
+
+</body>
