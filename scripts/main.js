@@ -7,7 +7,7 @@ function renderSeriesInTable(series) {
     console.log('Desplegando series');
     series.forEach(function (serie) {
         var trElement = document.createElement("tr");
-        trElement.innerHTML = "<td>".concat(serie.posicion, "</td>\n                           <td>").concat(serie.titulo, "</td>\n                           <td>").concat(serie.canal, "</td>\n                           <td>").concat(serie.temporadas, "</td>");
+        trElement.innerHTML = "<td class=\"bold-font\">".concat(serie.posicion, "</td>\n                           <td class=\"color-blue\">").concat(serie.titulo, "</td>\n                           <td>").concat(serie.canal, "</td>\n                           <td>").concat(serie.temporadas, "</td>");
         seriesTbody.appendChild(trElement);
     });
 }

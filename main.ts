@@ -13,14 +13,13 @@ function renderSeriesInTable(series: Serie[]): void {
   console.log('Desplegando series');
   series.forEach((serie) => {
     let trElement = document.createElement("tr");
-    trElement.innerHTML = `<td>${serie.posicion}</td>
-                           <td>${serie.titulo}</td>
+    trElement.innerHTML = `<td class="bold-font">${serie.posicion}</td>
+                           <td class="color-blue">${serie.titulo}</td>
                            <td>${serie.canal}</td>
                            <td>${serie.temporadas}</td>`;
     seriesTbody.appendChild(trElement);
   });
 }
-
 
 function getPromedioTemporadas(series: Serie[]): number {
   let promedioTemporadas: number = 0;

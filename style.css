@@ -1,10 +1,9 @@
 .color
 {
-    margin-top: 10px;
-    margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
     height: 80px;
+    width: 100%;
     background-color:rgb(7, 138, 155);
     color:white;
 }
@@ -31,23 +30,17 @@
 }
 
 .header img {
-    float: left;
     margin-top: 10px;
     margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    float: left;
     width: 60px;
     height: 60px;
 }
   
-  .header h1 {
+.header h1 {
     position: relative;
     top: 18px;
     left: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
 }
 
 .tableSize {
@@ -61,4 +54,24 @@
 
 .heading{
     display:inline-block;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+table td{
+    background: rgb(241, 241, 241);
+}
+
+.color-blue{
+    color:rgb(88, 178, 239);
+}
+
+.bold-font{
+    font-weight: bold;
 }
