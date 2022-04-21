@@ -31,7 +31,7 @@
 
 .header img {
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
     float: left;
     width: 60px;
     height: 60px;
@@ -52,6 +52,10 @@
     text-align: left;
 }
 
+.no-seleccionada{
+    display: none;
+}
+
 .heading{
     display:inline-block;
 }
@@ -68,10 +72,6 @@ table td{
     background: rgb(241, 241, 241);
 }
 
-.color-blue{
-    color:rgb(88, 178, 239);
-}
-
 .bold-font{
     font-weight: bold;
 }
@@ -86,4 +86,13 @@ table td{
     Text-align:left;
     Width:25%;
     float:right;
+}
+
+.boton{
+    cursor: pointer;
+    color:rgb(88, 178, 239);
+}
+
+.columnas-grises{
+    background-color: rgb(241, 241, 241);
 }
